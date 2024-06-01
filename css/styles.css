@@ -436,3 +436,31 @@ img {
 .reference .icon {
     fill: #f4f4fd;
 }
+
+.form-label {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.email-holder {
+    width: 264px;
+    height: 40px;
+    top: 140px;
+    left: 828px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    border-color: white;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    opacity: 0;
+    background-color: #2e2f42;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subcribe-button {
+    background-color: #4d5ae5;
+}
+.subcribe-button:hover {
+    box-shadow: 0px 4px 4px 0px #00000026;
+}
