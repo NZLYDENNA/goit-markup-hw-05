@@ -709,36 +709,65 @@
                         <use href="./images/icons.svg#icon-close" />
                     </svg>
                 </button>
-
-                <form autocomplete="off" class="modal-column">
-                    Leave your contacts and we will call you back
-                    <label>
-                        Name
-                        <input type="text" name="name" />
-                    </label>
-                    <label>
-                        Phone
-                        <input type="tel" name="phone" />
-                    </label>
-                    <label> Email <input type="email" name="email" /> </label>
-                    <label>
-                        Comment
-                        <textarea
-                            name="comment"
-                            placeholder="Text input"
-                        ></textarea>
-                    </label>
-                    <label>
-                        <input
-                            type="checkbox"
-                            name="terms"
-                            value="I accept the terms and conditions of the Privacy Policy"
-                        />
-                    </label>
-                    <button class="modal-form-button" type="submit">
-                        Send
-                    </button>
-                </form>
+                <div class="form">
+                    <form autocomplete="off" class="modal-column">
+                        <p class="form-name">
+                            Leave your contacts and we will call you back
+                        </p>
+                        <label class="name-label">
+                            Name
+                            <div class="row">
+                                <input
+                                    type="text"
+                                    name="user-name"
+                                    id="user-name"
+                                />
+                                <svg width="8" height="8">
+                                    <use
+                                        href="./images/icons.svg#icon-person"
+                                    />
+                                </svg>
+                            </div>
+                        </label>
+                        <label>
+                            Phone
+                            <div class="row">
+                                <input type="tel" name="phone" />
+                                <svg width="8" height="8">
+                                    <use href="./images/icons.svg#icon-phone" />
+                                </svg>
+                            </div>
+                        </label>
+                        <label>
+                            Email
+                            <div class="row">
+                                <input type="email" name="email" />
+                                <svg width="8" height="8">
+                                    <use href="./images/icons.svg#icon-email" />
+                                </svg>
+                            </div>
+                        </label>
+                        <label>
+                            Comment
+                            <div>
+                                <textarea
+                                    name="comment"
+                                    placeholder="Text input"
+                                ></textarea>
+                            </div>
+                        </label>
+                        <label>
+                            <input
+                                type="checkbox"
+                                name="terms"
+                                value="I accept the terms and conditions of the Privacy Policy"
+                            />
+                        </label>
+                        <button class="modal-form-button" type="submit">
+                            Send
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
     </body>
