@@ -448,10 +448,9 @@ img {
 }
 .form {
     display: flex;
-}
-.form-label {
     gap: 24px;
 }
+
 .email-holder {
     width: 264px;
     height: 40px;
