@@ -555,9 +555,6 @@ input::placeholder {
     color: #2e2f42;
     margin-bottom: 16px;
 }
-.form {
-    margin-bottom: 8px;
-}
 .name-label {
     font-size: 12px;
     line-height: 1.17;
@@ -568,4 +565,7 @@ input::placeholder {
 }
 .row {
     position: relative;
+}
+.form {
+    margin-bottom: 8px;
 }

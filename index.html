@@ -709,65 +709,59 @@
                         <use href="./images/icons.svg#icon-close" />
                     </svg>
                 </button>
-                <div class="form">
-                    <form autocomplete="off" class="modal-column">
-                        <p class="form-name">
-                            Leave your contacts and we will call you back
-                        </p>
-                        <label class="name-label">
-                            Name
-                            <div class="row">
-                                <input
-                                    type="text"
-                                    name="user-name"
-                                    id="user-name"
-                                />
-                                <svg width="8" height="8">
-                                    <use
-                                        href="./images/icons.svg#icon-person"
-                                    />
-                                </svg>
-                            </div>
-                        </label>
-                        <label>
-                            Phone
-                            <div class="row">
-                                <input type="tel" name="phone" id="phone" />
-                                <svg width="8" height="8">
-                                    <use href="./images/icons.svg#icon-phone" />
-                                </svg>
-                            </div>
-                        </label>
-                        <label>
-                            Email
-                            <div class="row">
-                                <input type="email" name="email" id="email" />
-                                <svg width="8" height="8">
-                                    <use href="./images/icons.svg#icon-email" />
-                                </svg>
-                            </div>
-                        </label>
-                        <label>
-                            Comment
-                            <div class="comment">
-                                <textarea
-                                    name="comment"
-                                    placeholder="Text input"
-                                ></textarea>
-                            </div>
-                        </label>
-                        <label>
+
+                <p class="form-name">
+                    Leave your contacts and we will call you back
+                </p>
+                <form autocomplete="off" class="modal-column">
+                    <div class="form">
+                        <label class="name-label">Name</label>
+                        <div class="row">
                             <input
-                                type="checkbox"
-                                name="terms"
-                                value="I accept the terms and conditions of the Privacy Policy"
+                                type="text"
+                                name="user-name"
+                                id="user-name"
                             />
-                        </label>
-                        <button class="modal-form-button" type="submit">
-                            Send
-                        </button>
-                    </form>
-                </div>
+                            <svg width="8" height="8">
+                                <use href="./images/icons.svg#icon-person" />
+                            </svg>
+                        </div>
+                    </div>
+                    <label>Phone</label>
+                    <div class="row">
+                        <input type="tel" name="phone" id="phone" />
+                        <svg width="8" height="8">
+                            <use href="./images/icons.svg#icon-phone" />
+                        </svg>
+                    </div>
+
+                    <label>Email</label>
+                    <div class="row">
+                        <input type="email" name="email" id="email" />
+                        <svg width="8" height="8">
+                            <use href="./images/icons.svg#icon-email" />
+                        </svg>
+                    </div>
+
+                    <label>Comment</label>
+                    <div class="comment">
+                        <textarea
+                            name="comment"
+                            placeholder="Text input"
+                        ></textarea>
+                    </div>
+
+                    <label></label>
+                    <input
+                        type="checkbox"
+                        name="terms"
+                        value="I accept the terms and conditions of the Privacy Policy"
+                    />
+
+                    <button class="modal-form-button" type="submit">
+                        Send
+                    </button>
+                </form>
             </div>
         </div>
     </body>
