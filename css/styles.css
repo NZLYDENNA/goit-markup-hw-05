@@ -471,7 +471,7 @@ img {
 input::placeholder {
     color: #ffffff;
 }
-.subcribe-button {
+.subscribe-button {
     min-width: 165px;
     height: 40px;
     display: flex;
