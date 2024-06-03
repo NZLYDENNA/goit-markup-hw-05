@@ -631,3 +631,29 @@ input::placeholder {
 .checkbox {
     margin-bottom: 24px;
 }
+.input-checkbox {
+    overflow: hidden;
+}
+.checkbox-label {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
+.checkbox-area {
+    width: 16px;
+    height: 16px;
+    gap: 0px;
+    border-radius: 2px 0px 0px 0px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-self: center;
+    fill: transparent;
+}
+.checkbox-icon {
+    background-color: --color(#404bbf);
+}
