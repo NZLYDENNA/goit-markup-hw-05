@@ -665,6 +665,9 @@ input::placeholder {
     border: none;
     fill: #f4f4fd;
 }
+.privacy-link {
+    color: var (--IRIS, #4d5ae5);
+}
 .modal-form-button {
     display: block;
     min-width: 169px;
