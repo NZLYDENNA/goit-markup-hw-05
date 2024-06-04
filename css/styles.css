@@ -663,7 +663,7 @@ input::placeholder {
     fill: #f4f4fd;
 }
 .privacy-link {
-    color: --color (#4d5ae5);
+    color: var(#4d5ae5);
 }
 .modal-form-button {
     display: block;
