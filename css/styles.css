@@ -653,10 +653,14 @@ input::placeholder {
     align-items: center;
     justify-self: center;
     fill: transparent;
-    border: none;
 }
 .checkbox-icon {
     background-color: --color(#404bbf);
+}
+.input-checkbox:checked + .checkbox-label .checkbox-area {
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
 }
 .modal-form-button {
     display: block;
