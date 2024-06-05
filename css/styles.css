@@ -447,8 +447,9 @@ img {
   opacity: 0px;
   display: flex;
   flex-direction: column;
-
   justify-content: center;
+  margin-left: 80px;
+  margin-bottom: 16px;
 }
 .form-tittle {
   margin-bottom: 16px;
