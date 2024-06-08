@@ -436,7 +436,7 @@ img {
 .reference .icon {
   fill: #f4f4fd;
 }
-.subscribe-form {
+.subscribe-form-container {
   width: 453px;
   height: 80px;
   top: 100px;
@@ -445,13 +445,10 @@ img {
   border-radius: 4px;
   border: 1px 0px 0px 0px;
   opacity: 0px;
-  /*display: flex;
-  flex-direction: column;
-  justify-content: center;*/
   margin-left: 80px;
   margin-bottom: 16px;
 }
-.form-tittle {
+.subscribe-form-tittle {
   margin-bottom: 16px;
   font-size: 16px;
   font-weight: 500;
@@ -460,7 +457,7 @@ img {
   text-align: left;
   color: #ffffff;
 }
-.form {
+.subscribe-form {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -566,7 +563,7 @@ input::placeholder {
 .close-button:focus {
   fill: #ffffff;
 }
-.form-name {
+.modal-form-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -575,15 +572,8 @@ input::placeholder {
   color: #2e2f42;
   margin-bottom: 16px;
 }
-.name-label {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  display: block;
-  margin-bottom: 4px;
-}
-.form {
+
+.modal-form {
   margin-bottom: 8px;
 }
 .label-row {
@@ -592,6 +582,7 @@ input::placeholder {
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
+  display: block;
 }
 .row {
   position: relative;
